@@ -5,8 +5,6 @@
 * **Name**: ANJALI K
 * **Register Number**: 212224040024
 
----
-
 ## Objective
 
 The objective of this experiment is to understand how Amazon Elastic Block Store (EBS) provides persistent block-level storage for EC2 instances. This lab focuses on creating and attaching an EBS volume, formatting and mounting it on an EC2 instance, storing data, and verifying data persistence after instance reboot.
@@ -77,36 +75,40 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ## Workflow (Student Explanation)
 
-1. Log in to the AWS Management Console, navigate to EC2 Dashboard, and explore the Amazon EBS service and its available volume types.
-2. Create a new EBS volume in the same Availability Zone as the existing EC2 instance by selecting the required size and volume type.
-3. Attach the created EBS volume to the running EC2 instance as an additional block device.
-4. Connect to the EC2 instance using SSH, format the attached volume with a file system (such as ext4), and mount it to a directory (for example, /mnt/ebs).
-5. Create files and store sample data inside the mounted volume, reboot the EC2 instance, and verify that the stored data remains available to confirm persistence.
+1. Created an Amazon EBS volume
 
----
+2. Attached the volume to an EC2 instance
+
+3. Created a file system on the volume
+
+4. Added a file to volume
+
+5. Created a snapshot of volume
+
+6. Created a new volume from the snapshot
+
+7. Attached and mounted the new volume to the EC2 instance
+
+8. Verified that the file created earlier was on the newly created volume
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EBS Volume Created
 
-<img width="1266" height="659" alt="image" src="https://github.com/user-attachments/assets/cf735875-b66f-449d-a99a-dbe084b19247" />
+<img width="1650" height="774" alt="image" src="https://github.com/user-attachments/assets/a7eafcf5-cd52-4bf6-8e92-cffad8c7440d" />
 
-
----
+<img width="1639" height="754" alt="image" src="https://github.com/user-attachments/assets/617d843b-7f1c-43ff-a774-9cb5124e8f58" />
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-<img width="1265" height="657" alt="image" src="https://github.com/user-attachments/assets/e3ad23d2-57d5-461b-86f8-7144d50c9ad8" />
+<img width="1588" height="501" alt="image" src="https://github.com/user-attachments/assets/bc363f53-e0b3-4e25-af01-faa35022480a" />
 
-
----
+<img width="1622" height="698" alt="image" src="https://github.com/user-attachments/assets/42097645-c565-4099-8956-c15c7162d826" />
 
 ### Screenshot 3: Mounted Volume with Data
 
-<img width="1264" height="656" alt="image" src="https://github.com/user-attachments/assets/7da50359-bb4c-4905-b526-a4c7c7509b4f" />
+<img width="1642" height="820" alt="image" src="https://github.com/user-attachments/assets/4e6da46c-b747-42cd-819d-b2f717c920e2" />
 
-
----
 
 ## Result / Conclusion
 
