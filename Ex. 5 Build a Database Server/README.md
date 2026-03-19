@@ -2,10 +2,8 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
-
+* **Name**: ANJALI K
+* **Register Number**: 212224040024
 ---
 
 ## Objective
@@ -82,13 +80,11 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Create a Security Group for RDS
+2. Create a DB Subnet Group
+3. Launch an RDS MySQL DB Instance
+4. Configure Connectivity and Security
+5. Connect Web App to Database and Test
 
 ---
 
@@ -96,22 +92,26 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1919" height="1030" alt="Screenshot 2026-03-18 154015" src="https://github.com/user-attachments/assets/a0e25b68-ee05-464f-abc0-c08a7d5b3608" />
+
+
 
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1919" height="1029" alt="Screenshot 2026-03-18 161203" src="https://github.com/user-attachments/assets/71108a2b-c20c-4401-b390-97820b2c2956" />
+
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1919" height="1027" alt="Screenshot 2026-03-18 161737" src="https://github.com/user-attachments/assets/4fc7bf9c-11c5-45df-8be8-7a08913103df" />
+
 
 ---
 
 ## Result
 
-This experiment demonstrated how to build a database server in AWS using an EC2 instance. By installing and configuring a DBMS, creating a sample database, and testing connectivity, the fundamentals of hosting and managing a cloud-based database server were underst
+This experiment demonstrated how to build a database server in AWS using an EC2 instance. By installing and configuring a DBMS, creating a sample database, and testing connectivity, the fundamentals of hosting and managing a cloud-based database server were understood.
