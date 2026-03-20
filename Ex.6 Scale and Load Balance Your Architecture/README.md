@@ -4,7 +4,7 @@
 
 Scale and Load Balance Your Architecture
 ## Author : 
-## your name: ANJALI K   
+## Name: ANJALI K   
 ## Reg no : 212224040024  
 
 ---
